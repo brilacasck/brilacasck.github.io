@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/maximum-matching-b-graph/precache-manifest.886c007615a779d962676537c62d6ba3.js"
+  "/maximum-matching-b-graph/precache-manifest.821640e9b8a0048fb913eb7e719dbdea.js"
 );
 
 workbox.clientsClaim();
