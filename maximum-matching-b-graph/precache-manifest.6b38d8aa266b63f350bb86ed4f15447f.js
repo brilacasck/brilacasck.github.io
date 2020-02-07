@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/maximum-matching-b-graph/static/js/runtime~main.c725a580.js"
   },
   {
-    "revision": "9fc7098b5e5bccc3df97",
-    "url": "/maximum-matching-b-graph/static/js/main.b82cda1f.chunk.js"
+    "revision": "b6b8215695ccad274d36",
+    "url": "/maximum-matching-b-graph/static/js/main.875cf9dd.chunk.js"
   },
   {
     "revision": "b64a93dc074a92270f90",
     "url": "/maximum-matching-b-graph/static/js/2.9c9e542b.chunk.js"
   },
   {
-    "revision": "9fc7098b5e5bccc3df97",
-    "url": "/maximum-matching-b-graph/static/css/main.780d4c32.chunk.css"
+    "revision": "b6b8215695ccad274d36",
+    "url": "/maximum-matching-b-graph/static/css/main.e15cef60.chunk.css"
   },
   {
-    "revision": "af5908c1219fffe3afc72a37ecc3f18e",
+    "revision": "896dab05a38c82d72e4f5c483ac74987",
     "url": "/maximum-matching-b-graph/index.html"
   }
 ];

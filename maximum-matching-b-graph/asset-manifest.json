@@ -1,14 +1,14 @@
 {
-  "main.css": "/maximum-matching-b-graph/static/css/main.780d4c32.chunk.css",
-  "main.js": "/maximum-matching-b-graph/static/js/main.b82cda1f.chunk.js",
-  "main.js.map": "/maximum-matching-b-graph/static/js/main.b82cda1f.chunk.js.map",
+  "main.css": "/maximum-matching-b-graph/static/css/main.e15cef60.chunk.css",
+  "main.js": "/maximum-matching-b-graph/static/js/main.875cf9dd.chunk.js",
+  "main.js.map": "/maximum-matching-b-graph/static/js/main.875cf9dd.chunk.js.map",
   "runtime~main.js": "/maximum-matching-b-graph/static/js/runtime~main.c725a580.js",
   "runtime~main.js.map": "/maximum-matching-b-graph/static/js/runtime~main.c725a580.js.map",
   "static/js/2.9c9e542b.chunk.js": "/maximum-matching-b-graph/static/js/2.9c9e542b.chunk.js",
   "static/js/2.9c9e542b.chunk.js.map": "/maximum-matching-b-graph/static/js/2.9c9e542b.chunk.js.map",
   "index.html": "/maximum-matching-b-graph/index.html",
-  "precache-manifest.821640e9b8a0048fb913eb7e719dbdea.js": "/maximum-matching-b-graph/precache-manifest.821640e9b8a0048fb913eb7e719dbdea.js",
+  "precache-manifest.6b38d8aa266b63f350bb86ed4f15447f.js": "/maximum-matching-b-graph/precache-manifest.6b38d8aa266b63f350bb86ed4f15447f.js",
   "service-worker.js": "/maximum-matching-b-graph/service-worker.js",
-  "static/css/main.780d4c32.chunk.css.map": "/maximum-matching-b-graph/static/css/main.780d4c32.chunk.css.map",
+  "static/css/main.e15cef60.chunk.css.map": "/maximum-matching-b-graph/static/css/main.e15cef60.chunk.css.map",
   "static/media/forkme.png": "/maximum-matching-b-graph/static/media/forkme.2b7a3655.png"
 }
