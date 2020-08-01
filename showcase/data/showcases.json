@@ -1,6 +1,6 @@
 [
   {
-    "cover": "/img/vornadecor.jpg",
+    "cover": "img/vornadecor.jpg",
     "title": "Vornadecor - Online Shopping Website (Production)",
     "desc": "Vornadecor is a decoration market sells products such as wallpaper, parquet and etc.",
     "url": "",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "cover": "/img/tcs4ce.jpg",
+    "cover": "img/tcs4ce.jpg",
     "title": "Tiny Courseware System For Computer Engineers (TCS4CE)",
     "desc": "A courseware system for both instructors and students to interact specially coding/compiling/running",
     "url": "",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "cover": "/img/reverse-digikala.jpg",
+    "cover": "img/reverse-digikala.jpg",
     "title": "Full-Stack Shopping Website",
     "desc": "Implementing a full-stack online market with LAMP-Stack",
     "url": "",
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "cover": "/img/wumpus.jpg",
+    "cover": "img/wumpus.jpg",
     "title": "AI/ES Wumpus-like Game",
     "desc": "A simple game based on Expert Systems concepts flavoured by GUI on a website context",
     "url": "https://github.com/brilacasck/wumpus-prolog",
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "cover": "/img/micro-acc-systemc.jpg",
+    "cover": "img/micro-acc-systemc.jpg",
     "title": "Hardware/Software Co-Design Micro-Accelerator",
     "desc": "A design of micro-processor assisted by accelerator on a bus context in SystemC",
     "url": "https://github.com/brilacasck/micro-acc-systemc",
@@ -145,7 +145,7 @@
     ]
   },
   {
-    "cover": "/img/full-compiler.jpg",
+    "cover": "img/full-compiler.jpg",
     "title": "Configurable Full Compiler",
     "desc": "A fully implemented Compiler based on e thconfigs reads from a file - lexical/synthesis analyzer",
     "url": "https://github.com/brilacasck/full-compiler",
@@ -166,7 +166,7 @@
     ]
   },
   {
-    "cover": "/img/cpu-scheduler.jpg",
+    "cover": "img/cpu-scheduler.jpg",
     "title": "CPU Scheduler",
     "desc": "Simulating scheduling algorithms of operating system (OS) for processes",
     "url": "https://github.com/brilacasck/CPU-Scheduler",
@@ -187,7 +187,7 @@
     ]
   },
   {
-    "cover": "/img/java-parser.jpg",
+    "cover": "img/java-parser.jpg",
     "title": "Java Programming Language Parser",
     "desc": "A simple compiler for parsing java codes and get syntax errors with CYK algorithm for context free grammars (CFG)",
     "url": "https://github.com/brilacasck/java-language-parser",
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "cover": "/img/bfs-dfs.jpg",
+    "cover": "img/bfs-dfs.jpg",
     "title": "Graphical BFS/DFS",
     "desc": "A graphical BFS and DFS algorithm simulator in java",
     "url": "https://github.com/brilacasck/BFS-DFS-java",
