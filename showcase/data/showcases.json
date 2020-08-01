@@ -1,0 +1,230 @@
+[
+  {
+    "cover": "/img/vornadecor.jpg",
+    "title": "Vornadecor - Online Shopping Website (Production)",
+    "desc": "Vornadecor is a decoration market sells products such as wallpaper, parquet and etc.",
+    "url": "",
+    "screenshot": "https://vornadecor.com",
+    "technologies": [
+      "HTML/JS/SCSS",
+      "React.JS",
+      "MaterialUI",
+      "Node.JS",
+      "Express.JS",
+      "Next.JS",
+      "PHP",
+      "..._private_..."
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Amirhossein Hassankhani",
+        "slug": "amirhossein-hassankhani"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      },
+      {
+        "name": "Khatere Tajfar",
+        "slug": "khatere-tajfar"
+      }
+    ]
+  },
+  {
+    "cover": "/img/tcs4ce.jpg",
+    "title": "Tiny Courseware System For Computer Engineers (TCS4CE)",
+    "desc": "A courseware system for both instructors and students to interact specially coding/compiling/running",
+    "url": "",
+    "screenshot": "https://alirezakay.github.io/showcase/y3/tcs4ce/",
+    "technologies": [
+      "HTML/JS/CSS",
+      "React.JS",
+      "SemanticUI",
+      "Node.JS",
+      "Express.JS",
+      "MongoDB",
+      "Ubuntu",
+      "Intel(x86) NASM Assembler"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Amirhossein Hassankhani",
+        "slug": "amirhossein-hassankhani"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      }
+    ]
+  },
+  {
+    "cover": "/img/reverse-digikala.jpg",
+    "title": "Full-Stack Shopping Website",
+    "desc": "Implementing a full-stack online market with LAMP-Stack",
+    "url": "",
+    "screenshot": "https://alirezakay.github.io/showcase/y3/shopping-website/",
+    "technologies": [
+      "HTML/JS/CSS",
+      "Angular.JS",
+      "jQuery",
+      "Bootstrap",
+      "PHP",
+      "MysQL"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      },
+      {
+        "name": "Amirhossein Hassankhani",
+        "slug": "amirhossein-hassankhani"
+      }
+    ]
+  },
+  {
+    "cover": "/img/wumpus.jpg",
+    "title": "AI/ES Wumpus-like Game",
+    "desc": "A simple game based on Expert Systems concepts flavoured by GUI on a website context",
+    "url": "https://github.com/brilacasck/wumpus-prolog",
+    "screenshot": "https://alirezakay.github.io/showcase/y3/wumpus-like-game/",
+    "technologies": [
+      "ProLog",
+      "Java",
+      "jQuery",
+      "Bootstrap"
+    ],
+    "partners": [
+      {
+        "name": "Amirhossein Hassankhani",
+        "slug": "amirhossein-hassankhani"
+      },
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Khatere Tajfar",
+        "slug": "khatere-tajfar"
+      }
+    ]
+  },
+  {
+    "cover": "/img/micro-acc-systemc.jpg",
+    "title": "Hardware/Software Co-Design Micro-Accelerator",
+    "desc": "A design of micro-processor assisted by accelerator on a bus context in SystemC",
+    "url": "https://github.com/brilacasck/micro-acc-systemc",
+    "screenshot": "https://alirezakay.github.io/showcase/y3/micro-acc-simulation/",
+    "technologies": [
+      "C",
+      "C++",
+      "SystemC",
+      "OpenCL"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      }
+    ]
+  },
+  {
+    "cover": "/img/full-compiler.jpg",
+    "title": "Configurable Full Compiler",
+    "desc": "A fully implemented Compiler based on e thconfigs reads from a file - lexical/synthesis analyzer",
+    "url": "https://github.com/brilacasck/full-compiler",
+    "screenshot": "https://alirezakay.github.io/showcase/y3/full-compiler/",
+    "technologies": [
+      "Java",
+      "JavaFX"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      }
+    ]
+  },
+  {
+    "cover": "/img/cpu-scheduler.jpg",
+    "title": "CPU Scheduler",
+    "desc": "Simulating scheduling algorithms of operating system (OS) for processes",
+    "url": "https://github.com/brilacasck/CPU-Scheduler",
+    "screenshot": "",
+    "technologies": [
+      "Java",
+      "JavaFX"
+    ],
+    "partners": [
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      },
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      }
+    ]
+  },
+  {
+    "cover": "/img/java-parser.jpg",
+    "title": "Java Programming Language Parser",
+    "desc": "A simple compiler for parsing java codes and get syntax errors with CYK algorithm for context free grammars (CFG)",
+    "url": "https://github.com/brilacasck/java-language-parser",
+    "screenshot": "https://alirezakay.github.io/showcase/y2/java-parser/",
+    "technologies": [
+      "Java"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      }
+    ]
+  },
+  {
+    "cover": "/img/bfs-dfs.jpg",
+    "title": "Graphical BFS/DFS",
+    "desc": "A graphical BFS and DFS algorithm simulator in java",
+    "url": "https://github.com/brilacasck/BFS-DFS-java",
+    "screenshot": "https://alirezakay.github.io/showcase/y1/bfs-dfs-simulator/",
+    "technologies": [
+      "Java",
+      "JavaFX"
+    ],
+    "partners": [
+      {
+        "name": "Alireza Kavian",
+        "slug": "alireza-kavian"
+      },
+      {
+        "name": "Soheil Changizi",
+        "slug": "soheil-changizi"
+      }
+    ]
+  }
+]
