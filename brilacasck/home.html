@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Brilacasck corp. - Home Page</title>
+    <link rel="shortcut icon" href="public/logo/BRILACASCK.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="Learn more about Brilacasck Corp. - Visit our services and our showcases - computer engineering services" name="description">
+    <link rel = "stylesheet"
+          href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel = "stylesheet"
+          href = "public/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type = "text/javascript"
+            src = "public/js/jquery-3.2.1.min.js"></script>
+    <script src = "public/js/materialize.min.js">
+    </script>
+
+
+
+    <style>
+        /* ---- reset ---- */
+        body{
+            margin:0; font:normal 75% Arial, Helvetica, sans-serif;
+        }
+        canvas{
+            display: block; vertical-align: bottom;
+        }
+        /* ---- particles.js container ---- */
+        #particles-js{
+            position:absolute; width: 100%; height: 100%; background-color: #232741;background-repeat: no-repeat; background-size: 20%; background-position: 50% 50%;
+        }
+        /* ---- stats.js ---- */
+        .count-particles{
+            background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold;
+        }
+        .js-count-particles{
+            font-size: 1.1em;
+        }
+        #stats, .count-particles{
+            -webkit-user-select: none; margin-top: 5px; margin-left: 5px;
+        }
+        #stats{
+            border-radius: 3px 3px 0 0; overflow: hidden;
+        }
+        .count-particles{
+            border-radius: 0 0 3px 3px;
+        }
+
+        .nav-wrapper{
+            background-color: #392F5A;
+        }
+        .nav-wrapper hide-on-med-and-down li a{
+            color: #ffffff;
+        }
+        .nav-wrapper .brand-logo img {
+            height: 64px;
+            padding: 5px 5px 10px 5px;
+        }
+        .nav-wrapper .active{
+            background-color: rgba(212,128,235, .5);
+        }
+
+        .text-gray-shadow-light{
+            text-shadow: lightgray 2px -2px 5px;
+        }
+        .text-black-shadow-dark{
+            text-shadow: black 2px 2px 1px;
+        }
+
+        .features{
+            height: 225px;
+            margin-top: 50px;
+            background-color: #471654;
+            box-shadow: inset black 0px 0px 500px, gray 0 -2px 20px;
+        }
+        .features .col{
+            position: relative;
+            padding: 112.5px 0;
+            transform: translateY(-15%);
+        }
+        .features .col i{
+            font-size: 5em;
+        }
+
+        .logo-on-particle{
+            width: 25vw;
+            height: auto;
+            position: relative;
+
+        }
+        .logo-on-particle img{
+            width: 100%;
+            height: auto;
+        }
+
+        .footer{
+            position: relative;
+            height: 100px;
+            font-size: 2em;
+            color: darkgray;
+        }
+        .footer i{
+            cursor: pointer;
+            filter: invert(100%) brightness(100%) contrast(50%);
+            font-size: 2em;
+            color: lightgray;
+        }
+        .footer i.fa-telegram:hover{
+            filter: none;
+            color: #00b0ff;
+        }
+        .footer i.fa-github-alt:hover{
+            filter: none;
+            color: #000;
+        }
+        .footer i.fa-linkedin:hover{
+            filter: none;
+            color: #0077B5;
+        }
+
+        @font-face {
+            font-family: iran_sans;
+            src: url("./public/font/IRANSans(FaNum).ttf");
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="https://brilacasck.ir" class="brand-logo">
+            <img src="public/logo/BRILACASCK.png">
+        </a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="https://showcase.brilacasck.ir">Showcase</a></li>
+            <li><a href="https://handyman.brilacasck.ir">Handyman</a></li>
+            <li><a href="https://about.brilacasck.ir">About</a></li>
+            <a href="./order/index.html" class="waves-effect waves-yellow deep-purple lighten-1 btn">Order</a>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="https://showcase.brilacasck.ir">Showcase</a></li>
+            <li><a href="https://handyman.brilacasck.ir">Handyman</a></li>
+            <li><a href="https://about.brilacasck.ir">About</a></li>
+            <a href="./order/index.html" class="waves-effect waves-yellow deep-purple lighten-1 btn">Order</a>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="col s12 m6">
+        <h1 class="light text-gray-shadow-light" style="color: #D480EB; font-weight: bold; font-size:2.2rem;">Brilacasck</h1>
+        <div class="card purple" style="background-color: #392F5A!important;">
+            <h5 class="card-content white-text text-black-shadow-dark">
+                <p>
+                    We are honored being at your service..
+                </p>
+            </h5>
+            <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width tabs-transparent">
+                    <li class="tab"><a href="#english" dideo-checked="true" class="active yellow-text">English</a></li>
+                    <li class="tab"><a href="#parsi" dideo-checked="true" class="active green-text">Parsi</a></li>
+                </ul>
+            </div>
+            <div style="font-size: 1.5em">
+                <div class="card-content yellow lighten-4">
+                    <div id="english" class="active" style="line-height: 1.7em;">
+                        <p>
+                            We are a young and small developer team - for now - an <b>agile</b> one, with the purpose of <br>
+                            &nbsp&nbsp<b class="purple-text">Create</b>, <b class="purple-text">Develope</b> and <b class="purple-text">Service</b>
+                            the CDS axiom.
+                        </p>
+                        <p style="margin-top: 5px">
+                            Our tasks consist of:<br>
+                            &nbsp&nbsp<b class="purple-text">Web Development</b>, <b class="purple-text">Software Development</b>, <b class="purple-text">AI Apps</b>, <b class="purple-text">App Bots</b>, <b class="purple-text">Mobile Apps</b> and etc.
+                        </p>
+                        <p style="margin-top: 5px">
+                            We are all trying to do our best due to satisfaction of our customers.
+                        </p>
+                    </div>
+                    <div id="parsi" class="active" style="line-height: 1.7em; font-family: iran_sans;">
+                        <p dir="rtl">
+                            ما یک تیم جوان ، تحصیل کرده و در حال حاضر کوچک، هستیم با هدف: <br>
+                            &nbsp&nbsp<b class="purple-text">ساخت</b>، <b class="purple-text">توسعه</b> و <b class="purple-text">سرویس دهی</b>
+                            (قانون <bdi> CDS</bdi>)
+                        </p>
+                        <p style="margin-top: 5px" dir="rtl">
+                            <bdi>خدمات ما در زمینه های زیر می باشد:</bdi><br/>
+                            &nbsp&nbsp<b class="purple-text">توسعه ی وب</b>, <b class="purple-text">ساخت نرم افزار</b>, <b class="purple-text">اپ های دارای هوش مصنوعی</b>, <b class="purple-text">اپ های دارای ربات</b>, <b class="purple-text">برنامه های گوشی</b> و ...
+                        </p>
+                        <p style="margin-top: 5px" dir="rtl">
+                            <bdi>ما همه، تمام تلاشمان را برای رضایت مشتری انجام می دهیم.</bdi>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="parallax-container features">
+    <div class="row center-align">
+        <div class="col s4 white-text"><i class="material-icons waves-effect waves-purple">dvr</i><br><br>WEBSITE</div>
+        <div class="col s4 white-text"><i class="material-icons waves-effect waves-yellow">developer_mode</i><br><br>MOBILE APPS</div>
+        <div class="col s4 white-text"><i class="material-icons waves-effect waves-green">fingerprint</i><br><br>AI APPS</div>
+    </div>
+</div>
+
+<div id="particles-js"></div>
+
+<div class="logo-on-particle"><img src="public/logo/BRILACASCK.png"></div>
+
+<footer class="footer parallax-container">
+    <div class="row text-center">
+        <a href="https://t.me/brilacasck" target="_blank" class="col s5 right-align"><i class="fa fa-telegram"></i></a>
+        <a href="https://linkedin.com/company/brilacasck" target="_blank" class="col s2 center-align"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/brilacasck" target="_blank" class="col s5 left-align"><i class="fa fa-github-alt"></i></a>
+    </div>
+    <div class="row center-align">
+        Copyright © 2017 - 2018 brilacasck.ir
+    </div>
+</footer>
+
+<script>
+    $(".button-collapse").sideNav();
+</script>
+<!-- stats - count particles --> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<!-- stats.js lib -->
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+        particles: {
+            number: { value: 200, density: { enable: true, value_area: 950 } },
+            color: { value: "#eeeeee" },
+            shape: {
+                type: "circle",
+                stroke: { width: 0, color: "#000000" },
+                polygon: { nb_sides: 5 },
+                image: { src: "img/github.svg", width: 100, height: 100 }
+            },
+            opacity: {
+                value: 1,
+                random: true,
+                anim: { enable: true, speed: 1, opacity_min: 0, sync: false }
+            },
+            size: {
+                value: 1,
+                random: true,
+                anim: { enable: false, speed: 1, size_min: 0.1, sync: false }
+            },
+            line_linked: {
+                enable: false,
+                distance: 150,
+                color: "#ffffff",
+                opacity: 0.4,
+                width: 0.4
+            },
+            move: {
+                enable: true,
+                speed: 1,
+                direction: "none",
+                random: true,
+                straight: false,
+                out_mode: "out",
+                bounce: false,
+                attract: { enable: false, rotateX: 600, rotateY: 600 }
+            }
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: { enable: true, mode: "grab" },
+                onclick: { enable: false, mode: "bubble" },
+                resize: true
+            },
+            modes: {
+                grab: { distance: 150, line_linked: { opacity: 1 } },
+                bubble: { distance: 250, size: 0, duration: 2, opacity: 0, speed: 3 },
+                repulse: { distance: 400, duration: 0.4 },
+                push: { particles_nb: 4 },
+                remove: { particles_nb: 2 }
+            }
+        },
+        retina_detect: true
+    });
+
+</script>
+
+<script>
+    $(function () {
+        fixLogoFooter();
+        $(window).resize(function () {
+            fixLogoFooter();
+        })
+    });
+    
+    function fixLogoFooter() {
+        var $windowH = $(window).height();
+        var $windowW = $(window).width();
+        var y = ($windowH - $(".logo-on-particle").height())/2;
+        var x = ($windowW - $(".logo-on-particle").width())/2;
+        var y2 = ($windowH - $(".footer").height() - $(".logo-on-particle").height());
+        $(".logo-on-particle").css("top", y+"px");
+        $(".logo-on-particle").css("left", x+"px");
+        $(".footer").css("top", y2+"px");
+    }
+
+</script>
+</body>
+</html>
