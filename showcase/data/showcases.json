@@ -4,7 +4,7 @@
     "title": "Vornadecor - Online Shopping Website (Production)",
     "desc": "Vornadecor is a decoration market sells products such as wallpaper, parquet and etc.",
     "url": "",
-    "screenshot": "https://vornadecor.com",
+    "screenshot": "https://alirezakay.github.io/showcase/y4/vornadecor/",
     "technologies": [
       "HTML/JS/SCSS",
       "React.JS",
@@ -13,7 +13,7 @@
       "Express.JS",
       "Next.JS",
       "PHP",
-      "..._private_..."
+      "__private__"
     ],
     "partners": [
       {
